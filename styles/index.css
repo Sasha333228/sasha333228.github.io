@@ -1,0 +1,52 @@
+p {
+	font-style: italic;
+	text-align: justify;
+	font-size: 130%;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	pointer-events: none;
+	transition: all 0.2s;
+}
+
+.projectlink:hover img {
+	transform: scale(1.3);
+}
+
+.projectlink:not(:hover) img {
+	transform: scale(1);
+}
+
+.projectlink {
+	flex: 1;
+	height: 30vh;
+	min-width: 30vh;
+	margin: 3vh;
+}
+
+#projects {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+#achievements-link {
+	text-align: center;
+	font-size: 250%;
+}
+
+#footnote {
+	text-align: center;
+	font-size: 150%;
+}
+
+h1 {
+	text-align: center;
+}
+
+body {
+	background: #b3e3e3;
+}
